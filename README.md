@@ -1,26 +1,35 @@
-This is a starter template for [Ionic](http://ionicframework.com/docs/) projects.
 
-## How to use this template
+## IONIC2 Mobile App Reddit Api
+https://www.youtube.com/watch?v=O2WiI9QrS5s
 
-*This template does not work on its own*. The shared files for each starter are found in the [ionic2-app-base repo](https://github.com/ionic-team/ionic2-app-base).
 
-To use this template, either create a new ionic project using the ionic node.js utility, or copy the files from this repository into the [Starter App Base](https://github.com/ionic-team/ionic2-app-base).
+## Steps:
+<ul>
+<li> npm install -g ionic cordova</li>
+<li> ionic start myApp</li>
+<li>cd myApp</li>
+<li>ionic lab</li>
+</ul>
 
-### With the Ionic CLI:
+#Other Commands
+npm install -g ionic cordova
 
-Take the name after `ionic2-starter-`, and that is the name of the template to be used when using the `ionic start` command below:
+ionic serve //or// ionic lab //(to start)
 
-```bash
-$ sudo npm install -g ionic cordova
-$ ionic start myTabs tabs
-```
+ionic g page detail // creates new dir(page) automatically
 
-Then, to run it, cd into `myTabs` and run:
+cordova platform add android
 
-```bash
-$ ionic cordova platform add ios
-$ ionic cordova run ios
-```
+cordova platform add ios
 
-Substitute ios for android if not on a Mac.
+cordova platform ls
 
+cordova run ios
+
+cordova run android
+
+export ANDROID_HOME=/home/arjun/android_sdk/Android/Sdk
+
+export PATH=${PATH}:/home/arjun/android_sdk/Android/Sdk/platform-tools:/home/arjun/android_sdk/Android/Sdk/tools
+
+ionic cordova build android
