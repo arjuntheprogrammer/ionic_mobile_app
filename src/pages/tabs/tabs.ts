@@ -10,8 +10,8 @@ import { RedditsPage } from '../reddits/reddits';
 export class TabsPage {
 
   tab1Root = RedditsPage;
-  tab2Root = AboutPage;
-  tab3Root = SettingsPage;
+  tab3Root = AboutPage;
+  tab2Root = SettingsPage;
 
   constructor() {
 
